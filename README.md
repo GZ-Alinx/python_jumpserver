@@ -9,7 +9,7 @@
 
 登陆启动：
 ```
-vim ~/.bash_profile
+[root@jumpserver ~]# vim ~/.bash_profile
 # .bash_profile
 
 # Get the aliases and functions
