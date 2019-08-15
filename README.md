@@ -8,6 +8,7 @@
 
 
 登陆启动：
+```
 vim ~/.bash_profile
 # .bash_profile
 
@@ -23,7 +24,7 @@ PATH=$PATH:$HOME/bin
 export PATH
 # 以上内容原有，添加如下行，接口实现用户登陆运行
 /usr/local/bin/python3 /root/jump/jumps.py
-
+```
 # 效果图
 
 ![image](https://github.com/GZ-Alinx/python_jump_script/blob/master/img/xg.png)
