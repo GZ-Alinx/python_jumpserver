@@ -27,7 +27,7 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
-# 以上内容原有，添加如下行，接口实现用户登陆运行
+# 以上内容原有，添加如下行，实现用户登陆运行
 /usr/local/bin/python3 /root/jump/jumps.py
 ```
 # 效果图
