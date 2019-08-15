@@ -7,6 +7,7 @@
 
 
 
+## 部署到跳板机
 登陆启动：
 ```
 [root@jumpserver ~]# vim ~/.bash_profile
