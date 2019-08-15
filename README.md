@@ -7,3 +7,4 @@
 
 # 效果图
 
+![image](https://github.com/GZ-Alinx/python_jump_script/blob/master/img/xg.png)
