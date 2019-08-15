@@ -5,6 +5,25 @@
 ##  2. 服务器添加简单;
 ##  3. SSH原生连接;
 
+
+
+登陆启动：
+vim ~/.bash_profile
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+
+export PATH
+# 以上内容原有，添加如下行，接口实现用户登陆运行
+/usr/local/bin/python3 /root/jump/jumps.py
+
 # 效果图
 
 ![image](https://github.com/GZ-Alinx/python_jump_script/blob/master/img/xg.png)
